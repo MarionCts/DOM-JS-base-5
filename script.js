@@ -15,7 +15,7 @@ let userList = document.querySelector("#userList");
 //     userList.append(userBase[i]);
 // }
 
-for (i of users) {
+for (let i of users) {
     userBase[i] = document.createElement("li");
     userBase[i].textContent = (`Nom : ${i.name}, Âge : ${i.age}`);
     userList.append(userBase[i]);     
